@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-slider-thumb{
+    background-color: yellow;
+}
+
+.navbar-brand img{
+    width: 110px;
+    
+}
+
+.main-btn{
+    display: inline-block;
+    text-transform: capitalize;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.4rem 1.4rem;
+    text-decoration: none;
+}
+.main-btn:hover{
+    background-color: rgb(84, 230, 84);
+    color: white;
+}
+
+.navigation{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.navigation .nav-item{
+    padding: 0 1rem;
+    
+}
+
+.navbar-toggle:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: orangered!important;
+    letter-spacing: 1px;
+}
+
+.navigation .main-btn{
+    padding: 0.3124rem 1.4343rem;
+    box-shadow: none;
+    margin-left: 0.635rem;
+}
+
+.navigation.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+.top-banner{
+    max-width: 100%;
+    background: url(/images/meditation_yoga_445157_3840x2400.jpg) no-repeat center;
+    background-size: cover;
+    padding: 14rem 4rem;
+}
+
+.data h1{
+    color: rgb(250, 250, 250);
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow:black;
+    font-size: 3rem;
+}
+.data p{
+    color: white;
+    font-weight: 600;
+}
+
+.counter-section{
+    background-color: orange;
+    margin-top: 3%;
+    padding: 5% 0;
+}
+.counter-section h2{
+    color: white;
+}
+.counter-section p{
+    color: white;
+    font-weight: bold;
+}
+
+.text h1{
+    text-transform: capitalize;
+    margin-top: 18%;
+}
+
+.tetsi-section{
+    background-color: orange;
+    margin-top: 9%;
+}
+
+.tetsi-section .carousel-item{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    padding: 3.4rem 1.25rem;
+    border-radius: 0.93rem;
+    background-color: pink;
+    
+}
+
+.size{
+    border-radius: 200px;
+    width: 100px;
+}
+.tetsi-section .carousel-indicators{
+    bottom: 2.8125rem;
+}
+.tetsi-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0,2;
+    margin-top: 20px;
+}
+.tetsi-section .carousel-indicators button:active{
+    opacity: 1;
+    background-color: red;
+}
+
+.foo{
+    background-color: orange;
+    margin-top: 5%;
+}
+.hed{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    font-weight: bold;
+}
+
+.img{
+    width: 100%;
+    background-image: url(/images/meditation_yoga_445157_3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 71.9123px;
+    background-attachment: scroll;
+    padding: 4.343rem 0;
+
+}
+
+
+label{
+    position: relative;
+}
+input{
+    width: 300px;
+    border: none;
+    padding: 14px;
+}
+.butt{
+    position: absolute;
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding: 14px;
+    background-color: blue;
+    color: white;
+}
+
+.icons li{
+    display: inline;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    padding:0 5%;
+
+}
+.icons{
+    margin-top: 6%;
+    
+}
+
+.fa-twitter:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.fa-whatsapp:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+.para{
+    color: white;
+    cursor: pointer;
+}
+
+.list li{
+   color: white;
+   list-style: none;
+   margin-left: 30%;
+   font-weight: bold;
+   cursor: pointer;
+}
+.listh1{
+    margin-left: 30%;
+    font-weight: bold;
+
+}
+.h11{
+    font-weight: bold;
+}
+.para1{
+    color: white;
+}
+
+
+
+
+/* Price */
+
+.columns {
+    float: left;
+    width: 95.3%;
+    padding: 8px;
+    
+  }
+  .hedd{
+      padding-top: 20%;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.4s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(71, 231, 31, 0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: lightgray;
+    font-size: 20px;
+  }
+  
+  
+  
+
+  /* Contact css */
+
+
+
+
+ 
+
+.wrapper{
+  
+  
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: 13%;
+  max-width: 100%;
+  
+  background: orange;
+  padding: 25px;
+  border-radius: 5px;
+
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+.wrapper .btn input:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.conta{
+    text-align: center;
+    margin-top: 20%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    .navigation .nav-link{
+        text-align: center;
+        
+    }
+    .list li{
+        margin-left: -1%;
+    }
+    .listh1{
+        margin-left: -1%;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width:770px){
+    .res{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+                
+    }
+}
